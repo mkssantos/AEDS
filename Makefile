@@ -37,4 +37,4 @@ clean:
 	-@rm -rvf $(APP_DIR)/*
 
 run:
-./$(BUILD)/$(TARGET)
+	./$(BUILD)/$(TARGET)
